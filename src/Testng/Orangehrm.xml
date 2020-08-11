@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Orange hrm">
+<test name="MyTest">
+<classes>
+<class name="Testng.Driver"> </class>
+<class name="Testng.LoginTest">
+<methods>
+<include name="Login"/>
+<include name="Logout"/>
+</methods>
+</class>
+<class name="Testng.HomeTest"/>
+</classes>
+</test>
+</suite>
